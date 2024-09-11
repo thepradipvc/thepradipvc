@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Pradip Chaudhary</h1>
-<h3>Full stack software developer with expertise in front-end and backend-end development along with deployment and CI/CD pipelines.</h3>
+<h4>Full stack software developer with expertise in front-end and backend-end development along with deployment and CI/CD pipelines.</h4>
 
 - 🔭 I’m currently working on **a secret project that will release in few months**
 
@@ -14,6 +14,14 @@
 - 📄 Know about my experiences (Resume) [https://dub.sh/resumevc](https://dub.sh/resumevc)
 
 - ⚡ Fun fact **I am single**
+
+</br>
+
+## Open Source Contributions
+
+- <img src="https://img.shields.io/badge/Merged-brightgreen" align="center" /> <a href="https://github.com/calcom/cal.com/pull/14888">feat: browser push notifications</a>
+- <img src="https://img.shields.io/badge/Merged-brightgreen" align="center" /> <a href="https://github.com/code100x/muzer/pull/76">chore: Extend JWT to store User Id & refactoring</a>
+- <img src="https://img.shields.io/badge/Open-yellow" align="center" /> <a href="https://github.com/calcom/cal.com/pull/16153">chore: i18n cleanup - script to remove unused translation keys</a>
 
 <!--
 <h3 align="left">Connect with me:</h3>
