@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Pradip Chaudhary</h1>
-<h3 align="center">Full stack software developer with expertise in front-end and backend-end development along with deployment and CI/CD pipelines.</h3>
+<h3>Full stack software developer with expertise in front-end and backend-end development along with deployment and CI/CD pipelines.</h3>
 
 - 🔭 I’m currently working on **a secret project that will release in few months**
 
