@@ -12,7 +12,7 @@ interface Props {
   imgSrc: string;
   tech: string[];
   title: string;
-  code: string;
+  code?: string;
 }
 
 export const Project = ({
@@ -77,9 +77,11 @@ export const Project = ({
               </h4>
               <div className="w-full h-[1px] bg-zinc-600" />
 
-              <Link href={code} target="_blank" rel="nofollow">
-                <AiFillGithub className="text-xl text-zinc-300 hover:text-indigo-300 transition-colors" />
-              </Link>
+              {code && (
+                <Link href={code} target="_blank" rel="nofollow">
+                  <AiFillGithub className="text-xl text-zinc-300 hover:text-indigo-300 transition-colors" />
+                </Link>
+              )}
 
               <Link href={projectLink} target="_blank" rel="nofollow">
                 <AiOutlineExport className="text-xl text-zinc-300 hover:text-indigo-300 transition-colors" />

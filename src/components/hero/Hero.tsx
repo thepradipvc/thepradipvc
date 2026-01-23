@@ -9,7 +9,7 @@ const Hero = () => {
         <div className="pointer-events-none relative z-10">
           <Reveal>
             <h1 className="pointer-events-auto text-4xl sm:text-6xl font-black text-zinc-100 md:text-8xl">
-              Hi, I'm Bob<span className="text-indigo-500">.</span>
+              Hi, I'm Pradip<span className="text-indigo-500">.</span>
             </h1>
           </Reveal>
           <Reveal>
@@ -22,9 +22,9 @@ const Hero = () => {
           </Reveal>
           <Reveal>
             <p className="pointer-events-auto leading-relaxed md:leading-relaxed max-w-xl text-sm text-zinc-300 md:text-base">
-              I've spent the last 5 years building and scaling software for some
-              pretty cool companies. I also teach people to paint online (incase
-              you've got an empty canvas layin' around 🎨). Let's connect!
+              I build scalable, AI-driven products. Currently working on
+              Replient — an AI-powered social media management platform handling
+              real-time interactions across 6+ platforms for multiple brands and agencies.
             </p>
           </Reveal>
           <Reveal>

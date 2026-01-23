@@ -13,34 +13,26 @@ export const About = () => {
           <Reveal>
             <p className="leading-relaxed text-zinc-300">
               <span className="bg-indigo-500 text-white py-2 px-3 rounded font-bold mr-1 float-left text-2xl">
-                H
+                I
               </span>
-              ey! I&apos;m Bob, if you haven&apos;t already gathered that by
-              now. I&apos;m a painter turned software engineer from Daytona,
-              Florida. I specialize in the backend, primarily Node and Rust, but
-              love building with whatever tools are right for the job.
+              &apos;m a full-stack engineer focused on building scalable,
+              AI-driven products. I enjoy solving complex backend problems,
+              designing clean systems, and shipping production-ready software.
             </p>
           </Reveal>
           <Reveal>
             <p className="leading-relaxed text-zinc-300">
-              I currently work for Google on Google Photos. I also toss in my ¢2
-              with the design systems teams from time to time (once an artist,
-              always an artist, amirite?).
+              Currently at Builway, I&apos;m working on Replient — an AI-powered
+              social media management platform. I handle everything from
+              queue-based architectures and background workers to vector search
+              and multi-platform API integrations.
             </p>
           </Reveal>
           <Reveal>
             <p className="leading-relaxed text-zinc-300">
-              Outside of work, I still love to paint. Any given Sunday
-              you&apos;ll find me scribbling some happy clouds with my son ☁️ I
-              even teach courses online if you&apos;re looking to learn!
-            </p>
-          </Reveal>
-          <Reveal>
-            <p className="leading-relaxed text-zinc-300">
-              I&apos;m passively looking for new positions where I can merge my
-              love for code with my love for the canvas. If you think
-              you&apos;ve got an opening that I might like, let&apos;s connect
-              🔗
+              I&apos;ve also contributed to Scopri (AI patent analysis), Taxado
+              (legal tech), and Buildpilot (mobile app). Open to freelance
+              opportunities — let&apos;s connect!
             </p>
           </Reveal>
           <Reveal>

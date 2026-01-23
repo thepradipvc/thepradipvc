@@ -14,3 +14,8 @@
 html {
   scroll-behavior: smooth;
 }
+
+/* account for sticky header (h-[72px]) when navigating via #hash */
+.section-wrapper {
+  scroll-margin-top: 88px;
+}

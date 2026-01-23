@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { SideBarLink } from "./SideBarLink";
+import Link from "next/link";
 
 export const SideBar = () => {
   const [selected, setSelected] = useState("");
@@ -32,9 +33,9 @@ export const SideBar = () => {
       transition={{ duration: 0.5 }}
       className="no-scrollbar bg-zinc-950 h-screen sticky top-0 left-0 z-20 flex flex-col items-center overflow-y-scroll"
     >
-      <span className="shrink-0 text-xl font-black leading-[1] size-10 flex items-center justify-center my-4">
-        B<span className="text-indigo-500">.</span>
-      </span>
+      <Link href="/" className="shrink-0 text-xl font-black leading-[1] size-10 flex items-center justify-center my-4">
+        P<span className="text-indigo-500">.</span>
+      </Link>
       <SideBarLink
         selected={selected}
         setSelected={setSelected}
@@ -46,18 +47,18 @@ export const SideBar = () => {
       <SideBarLink
         selected={selected}
         setSelected={setSelected}
-        value="projects"
-        href="#projects"
-      >
-        Projects
-      </SideBarLink>
-      <SideBarLink
-        selected={selected}
-        setSelected={setSelected}
         value="experience"
         href="#experience"
       >
         Exp.
+      </SideBarLink>
+      <SideBarLink
+        selected={selected}
+        setSelected={setSelected}
+        value="projects"
+        href="#projects"
+      >
+        Projects
       </SideBarLink>
       <SideBarLink
         selected={selected}

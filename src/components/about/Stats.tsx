@@ -12,20 +12,22 @@ export const Stats = () => {
             <span className="font-bold ml-2">Use at work</span>
           </h4>
           <div className="flex flex-wrap gap-2 mb-12">
-            <Chip>JavaScript</Chip>
+            <Chip>Next.js</Chip>
             <Chip>TypeScript</Chip>
-            <Chip>HTML</Chip>
-            <Chip>CSS</Chip>
+            <Chip>OpenAI</Chip>
+            <Chip>Claude</Chip>
             <Chip>React</Chip>
-            <Chip>Redux</Chip>
-            <Chip>NodeJS</Chip>
-            <Chip>Express</Chip>
-            <Chip>Postgres</Chip>
-            <Chip>MongoDB</Chip>
-            <Chip>GitHub</Chip>
-            <Chip>Jira</Chip>
-            <Chip>Heroku</Chip>
-            <Chip>AWS</Chip>
+            <Chip>Tailwind</Chip>
+            <Chip>AI SDK</Chip>
+            <Chip>PostgreSQL</Chip>
+            <Chip>Redis</Chip>
+            <Chip>BullMQ</Chip>
+            <Chip>tRPC</Chip>
+            <Chip>Supabase</Chip>
+            <Chip>Prisma</Chip>
+            <Chip>pgvector</Chip>
+            <Chip>Radix</Chip>
+            <Chip>Mantine</Chip>
           </div>
         </div>
       </Reveal>
@@ -36,16 +38,14 @@ export const Stats = () => {
             <span className="font-bold ml-2">Use for fun</span>
           </h4>
           <div className="flex flex-wrap gap-2 mb-12">
-            <Chip>Rust</Chip>
-            <Chip>Tailwind</Chip>
-            <Chip>Java</Chip>
-            <Chip>Spring</Chip>
+            <Chip>React Native</Chip>
+            <Chip>Expo</Chip>
+            <Chip>Framer Motion</Chip>
+            <Chip>Elysia</Chip>
+            <Chip>Docker</Chip>
+            <Chip>Better Auth</Chip>
+            <Chip>Base UI</Chip>
             <Chip>Figma</Chip>
-            <Chip>Whimsical</Chip>
-            <Chip>Planetscale</Chip>
-            <Chip>GraphQL</Chip>
-            <Chip>Python</Chip>
-            <Chip>FastAPI</Chip>
           </div>
         </div>
       </Reveal>

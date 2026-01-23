@@ -18,133 +18,130 @@ export const Projects = () => {
 
 const projects = [
   {
-    title: "Paint.app",
-    imgSrc: "project-imgs/example-project.jpg",
-    code: "https://www.github.com",
-    projectLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    tech: ["Flutter", "MUI", "Python", "FastAPI"],
+    title: "Replient",
+    imgSrc: "project-imgs/replient.png",
+    projectLink: "https://replient.ai",
+    tech: ["Next.js", "TypeScript", "tRPC","AI SDK", "Prisma", "PostgreSQL", "BullMQ", "Redis", "OpenAI"],
     description:
-      "A real-time coaching app for students learning to paint. This app is my baby, designed and built on my own.",
+      "AI-powered social media management platform with multi-platform inbox, sentiment analysis, smart replies, and visual automation builder.",
     modalContent: (
       <>
         <p>
-          Pain.app is a real-time coaching app for students learning to paint.
-          This app is my baby, designed and built on my own.
+          Replient is a comprehensive social media management platform that
+          leverages AI to help brands manage interactions across Facebook,
+          Instagram, TikTok, LinkedIn, YouTube, and Google Reviews.
         </p>
         <p>
-          The tech stack is based on top of Flutter for the mobile app,
-          connected to a Python & FastAPI backend, with data stored in Postgres,
-          deployed on Heroku.
+          <strong>Architecture highlights:</strong>
         </p>
+        <ul className="list-disc list-inside space-y-1">
+          <li>Queue-based processing with BullMQ + Redis for scalability</li>
+          <li>Smart visual automation builder with conditional logic and delays</li>
+          <li>Multi-platform comments and messages inbox with Facebook, Instagram, TikTok, LinkedIn, YouTube, and Google Reviews</li>
+          <li>Vector search using pgvector + HNSW indexes for semantic search</li>
+        </ul>
         <p>
-          Because this isn&apos;t real, here&apos;s some gibberish to fill space{" "}
-          {":)"}
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur
-          quia officia odio nulla consectetur aperiam ad tempora magni magnam
-          nesciunt.
-        </p>
-        <p>
-          Fuga id sapiente facere ipsa eius exercitationem officiis deleniti,
-          rerum dolorum. Deserunt soluta modi culpa animi.
+          I handle everything from API integrations and webhook processing to
+          AI pipelines and the automation engine.
         </p>
       </>
     ),
   },
   {
-    title: "The Canvas Club",
-    imgSrc: "project-imgs/example-project.jpg",
-    code: "https://www.github.com",
-    projectLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    tech: ["Node", "Express", "Postgres", "Kafka", "Redis"],
+    title: "Scopri",
+    imgSrc: "project-imgs/scopri.png",
+    projectLink: "https://scopri.ai/",
+    tech: ["AI", "Vector Search", "PostgreSQL", "Next.js", "TypeScript", "Prisma", "tRPC", "Google BigQuery"],
     description:
-      "A social community for painters to connect with others in their community. I handle everything backend (50K monthly active users).",
+      "AI-powered patent analysis platform for researchers. Semantic search and AI summaries for patent discovery.",
     modalContent: (
       <>
         <p>
-          The Canvas Club is a social community for painters to connect with
-          others in their community.
+          Scopri helps researchers discover and analyze patents using AI-powered
+          semantic search and intelligent summaries.
         </p>
         <p>
-          I work primarily on the backend, a collection of Node & Express
-          microservices. Data is stored primarily in Postgres & cached in Redis.
-        </p>
-        <p>
-          The team in total consists of 5 developers. This is a passion project
-          for all of us.
-        </p>
-        <p>
-          Because this isn&apos;t real, here&apos;s some gibberish to fill space{" "}
-          {":)"}
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur
-          quia officia odio nulla consectetur aperiam ad tempora magni magnam
-          nesciunt.
-        </p>
-        <p>
-          Fuga id sapiente facere ipsa eius exercitationem officiis deleniti,
-          rerum dolorum. Deserunt soluta modi culpa animi.
+          Built with vector embeddings for semantic patent matching and LLM
+          integration for generating patent summaries and insights.
         </p>
       </>
     ),
   },
   {
-    title: "BrushWire",
-    imgSrc: "project-imgs/example-project.jpg",
-    code: "https://www.github.com",
-    projectLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    tech: ["NextJS", "Java", "Spring", "AWS Aurora"],
+    title: "Taxado",
+    imgSrc: "project-imgs/taxado.png",
+    projectLink: "https://taxado.com/",
+    tech: ["Next.js", "TypeScript", "PostgreSQL", "Prisma", "tRPC", "Cron Jobs"],
     description:
-      "Think Zapier but for paint. Built with a team of four college friends and scaled to > 1 billion requests per day. This was a fun one.",
+      "Professional network platform for law firms. LinkedIn-style networking for legal professionals.",
     modalContent: (
       <>
         <p>
-          Brush wire is essentially Zapier but for paint. Built with a team of
-          four college friends and scaled to {">"} 1 billion requests per day.
-          This was a fun one.
+          Taxado is a professional networking platform designed specifically for
+          law firms and legal professionals in Europe (Austria, Germany, etc.).
         </p>
         <p>
-          Since &quot;Zapier for paint&quot; doesn&apos;t mean anything, be
-          creative {":)"}
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur
-          quia officia odio nulla consectetur aperiam ad tempora magni magnam
-          nesciunt.
-        </p>
-        <p>
-          Fuga id sapiente facere ipsa eius exercitationem officiis deleniti,
-          rerum dolorum. Deserunt soluta modi culpa animi.
+          Features include firm profiles, candidates profiles, job postings, and a job application system.
         </p>
       </>
     ),
   },
   {
-    title: "Paint Reference 4",
-    imgSrc: "project-imgs/example-project.jpg",
-    code: "https://www.github.com",
-    projectLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    tech: ["Python", "FastAPI", "SQLAlchemy"],
+    title: "Thundermail",
+    imgSrc: "project-imgs/thundermail.png",
+    code: "https://github.com/thepradipvc/thundermail-web",
+    projectLink: "https://thundermail.thepradipvc.com",
+    tech: ["Gmail API", "Lucia Auth", "Next.js", "TypeScript", "Tailwind", "AWS SQS", "AWS Lambda"],
     description:
-      "I couldn't think of another paint reference app, so here we are. I think you get the idea, right? Use your imagination 🌈",
+      "Resend clone - email delivery system using Gmail. Send transactional emails through Gmail API.",
     modalContent: (
       <>
-        <p>Alright, you got me. I&apos;m all out of paint references.</p>
         <p>
-          Point is, use this space to explain a bit further WHAT this project
-          is, as well as what YOU contributed to it.
-        </p>
-        <p>You get the idea. Now more lorem {":)"}</p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur
-          quia officia odio nulla consectetur aperiam ad tempora magni magnam
-          nesciunt.
+          Thundermail is an email delivery service similar to Resend, but uses
+          Gmail as the underlying email provider.
         </p>
         <p>
-          Fuga id sapiente facere ipsa eius exercitationem officiis deleniti,
-          rerum dolorum. Deserunt soluta modi culpa animi.
+          Built to learn about OAuth flows, email APIs, and building developer
+          tools with great DX.
+        </p>
+      </>
+    ),
+  },
+  {
+    title: "Lucir",
+    imgSrc: "project-imgs/lucir.png",
+    code: "https://github.com/thepradipvc/lucir-landing-page",
+    projectLink: "https://lucir.vercel.app",
+    tech: ["Next.js", "Tailwind", "React slick"],
+    description:
+      "Landing page for a link-in-bio SaaS. Clean design with smooth animations.",
+    modalContent: (
+      <>
+        <p>
+          A polished landing page built for Lucir, a link-in-bio SaaS product.
+        </p>
+        <p>
+          Features responsive design, with clean UI to demonstrate product features.
+        </p>
+      </>
+    ),
+  },
+  {
+    title: "UI Components",
+    imgSrc: "project-imgs/ui-components.png",
+    code: "https://github.com/thepradipvc/ui-components",
+    projectLink: "https://ui.thepradipvc.com",
+    tech: ["React", "Framer Motion", "Shadcn UI", "Tailwind"],
+    description:
+      "Collection of animated UI components. Reusable components with smooth animations.",
+    modalContent: (
+      <>
+        <p>
+          A collection of animated, reusable UI components built with React and
+          Framer Motion.
+        </p>
+        <p>
+          Includes various interactive components like button, Twitter wall of fame, countdown timer, text animations and more with smooth animations.
         </p>
       </>
     ),
