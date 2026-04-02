@@ -11,7 +11,7 @@
 
 - 📫 How to reach me **chaudharypradip.n@gmail.com**
 
-- 📄 Know about my experiences (Resume) [https://dub.sh/resumevc](https://dub.sh/resumevc)
+- 📄 Know about my experiences - https://thepradipvc.com ([Resume](https://thepradipvc.com/resume.pdf))
 
 - ⚡ Fun fact **I am single**
 
